@@ -41,12 +41,21 @@ Some other dumb stuff that you might find just to prove I could for future shitp
 - More traps. Line mode trap is not working as intended and I'd LOVE to find a way to in-game give all enemies rockets like the cheat.
 - Cheats are checks and CAN be used to complete levels. I feel like that's only fair and right now I'm trying to balance items with the large amount of locations currently.
 
-Included here:
-- the Archipelago world implementation
-- `archipelago.json`
-- player setup documentation in `docs/setup_en.md`
+# Special Thanks
 
-Use `goldeneye_ap_randomizer.lua` as the single Lua script in BizHawk.
+Vincent'sSin for compiling every item in the game and logic for them and then for letting me use it for this AP. It's going to be invaluable for moving forward with the checks in the future.
+
+kholdfuzion for his intense and extensive research for the Goldeneye Decomp project and for sharing. This would not be possible without his findings and documentation of hex addresses.
+
+Elfor over at Romhacking.net for sharing the Unlock Everything Patch that's currently used for this AP.
+
+PixelShake92 for helping me find addresses and sharing his extensive wisdom with me on creating an apworld. Super special thanks to him for his patience with all the dumb questions I asked you and time I took away from you releasing the Banjo-Kazooie AP.
+
+# Included in the release:
+- the Archipelago world implementation
+- goldeneye_ap_randomizer.lua
+- the unlock everything rom patch
+- player setup documentation in `docs/setup_en.md`
 
 Disclaimer: As I am a budding young bushy eyed developer, AI was partially used to create this APWorld. I despise AI, but in the process of learning how to make apworlds, I've mostly used it as a guardrail professor to slap me with a ruler anytime I do anything wrong and explain to me why I'm dumb and should give up. The ultimate goal for me is to rewrite the code when it's working completely from scratch to make sure no AI was used in the full release of this apworld. I don't condone using AI to make apworlds, mostly because of it's effects on the world, but also because it's really stupid and most of the time can't do anything right unless you already know what you're doing anyway and can do it without.
 
