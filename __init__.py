@@ -2,6 +2,7 @@ from BaseClasses import Item, Tutorial
 from worlds.AutoWorld import WebWorld, World
 
 from .GoldeneyeClient import GoldeneyeClient  # Registers the BizHawk client.
+from .Groups import item_name_groups, location_name_groups
 from .Items import MISSION_UNLOCK_NAMES, create_item, create_itempool, item_table
 from .Locations import get_location_names, get_total_locations
 from .Options import GoldeneyeOptions, create_option_groups
@@ -26,6 +27,8 @@ class GoldeneyeWorld(World):
     game = "GoldenEye 007"
     item_name_to_id = {name: data.ap_code for name, data in item_table.items() if data.ap_code is not None}
     location_name_to_id = get_location_names()
+    item_name_groups = item_name_groups
+    location_name_groups = location_name_groups
     options_dataclass = GoldeneyeOptions
     options = GoldeneyeOptions
     option_groups = create_option_groups()
